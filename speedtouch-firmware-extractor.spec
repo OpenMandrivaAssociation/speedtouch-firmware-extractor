@@ -11,6 +11,7 @@ Source0: %{distname}.tar.bz2
 License: GPL
 Group: System/Kernel and hardware
 Url: http://www.linux-usb.org/SpeedTouch/firmware/index.html
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This is a small application to prepare and install the firmware for a
