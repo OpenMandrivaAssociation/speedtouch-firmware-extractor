@@ -1,12 +1,11 @@
 %define name speedtouch-firmware-extractor
 %define distname firmware-extractor
 %define version 0.1
-%define release %mkrel 2
 
 Summary: Speedtouch firmware extractor
 Name: %{name}
 Version: %{version}
-Release: %{release}
+Release: %mkrel 3
 Source0: %{distname}.tar.bz2
 License: GPL
 Group: System/Kernel and hardware
