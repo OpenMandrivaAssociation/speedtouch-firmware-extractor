@@ -5,7 +5,7 @@
 Summary: Speedtouch firmware extractor
 Name: %{name}
 Version: %{version}
-Release: %mkrel 6
+Release: %mkrel 7
 Source0: %{distname}.tar.bz2
 License: GPL
 Group: System/Kernel and hardware
