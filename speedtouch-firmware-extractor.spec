@@ -28,11 +28,11 @@ with hotplug firmware loading.
 gcc -o %{distname} firmware.c
 
 %install
-rm -rf $RPM_BUILD_ROOT
-install -D -m755 %{distname} $RPM_BUILD_ROOT%{_sbindir}/%{distname}
+rm -rf %{buildroot}
+install -D -m755 %{distname} %{buildroot}%{_sbindir}/%{distname}
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
