@@ -1,3 +1,4 @@
+%define debug_package %{nil}
 %define name speedtouch-firmware-extractor
 %define distname firmware-extractor
 %define version 0.1
