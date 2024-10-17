@@ -10,7 +10,7 @@ Release: 20
 Source0: %{distname}.tar.bz2
 License: GPL
 Group: System/Kernel and hardware
-Url: http://www.linux-usb.org/SpeedTouch/firmware/index.html
+Url: https://www.linux-usb.org/SpeedTouch/firmware/index.html
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
